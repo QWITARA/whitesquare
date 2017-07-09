@@ -1,0 +1,57 @@
+/* My variables */
+@brand-font: 'Oswald',sans-serif;
+@color-secondary: #b2b2b2;
+
+/* Bootstrap variables */
+@grid-columns: 24; /* по умолчанию 12 колонок */
+@container-md: 960px; /* ширина сайта */
+@container-lg: @container-md; /* для больших экранов - как для обычных */
+
+/* шрифты */
+@font-family-base: Tahoma, sans-serif;
+@font-size-base: 12px; 
+@font-size-h1: 3.5em;
+
+/* цвета */
+@body-bg: #f8f8f8;
+@text-color: #8f8f8f;
+@brand-primary: #29c5e6; /* цвет для основных элементов */
+
+/* рамки - общие свойства для всех рамок */
+@border-radius-base: 0;  /* убираем скругление углов */
+
+/* панели */
+@panel-bg:#f3f3f3; /* цвет фона панелей*/
+@panel-inner-border: #e7e7e7; /* цвет рамки панелей */
+@panel-primary-border: transparent;
+
+/* формы */
+@input-color-placeholder: @color-secondary;
+@input-color: @color-secondary;
+@input-bg: @panel-bg; /* инпутам назначаем цвета фона и рамок панелей */
+@input-border: @panel-inner-border; 
+@input-border-focus: @panel-inner-border;
+
+/* навигация */
+@navbar-height: 30px; /* считается как min-height если переопределить 
+@navbar-padding-vertical (см. ниже) */
+@navbar-default-bg: @panel-bg; /* фон */
+@navbar-default-link-color: @color-secondary; /* цвет ссылок */
+@navbar-default-link-active-bg: @brand-primary; /* фон активного пункта */
+@navbar-default-link-active-color: #fff; /* цвет текста активного пункта */
+@navbar-default-link-hover-color: @brand-primary;
+@navbar-padding-vertical: 11px; /* ИМХО надо ставить, т.к. по умолчанию считается
+по формуле и перебивает паддинги из @nav-link-padding */
+@nav-link-padding: 10px;
+
+/* левое меню (группированный список) */
+@list-group-bg: @panel-bg;
+@list-group-border: @panel-inner-border;
+
+/* цитата */
+@jumbotron-bg: @brand-primary;
+@jumbotron-color: #fff;
+
+/* thumbnails */
+@thumbnail-padding: 1px;
+@thumbnail-border: #c9c9c9;
